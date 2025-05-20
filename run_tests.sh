@@ -1,4 +1,3 @@
 #!/bin/sh
-
-export CI=true
-npm test ${@}
+cd ./angular-workspace
+npm test
